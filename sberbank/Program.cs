@@ -6,8 +6,41 @@ using System.Threading.Tasks;
 
 namespace sberbank
 {
+<<<<<<< HEAD
     class Program
     {
+=======
+    public struct Message
+    {
+        public string Guid { get; set; }
+        public string Token { get; set; }
+    }
+    
+    class Program
+    {
+        public void Post() {
+            Message message = new Message { };
+            string json = JsonConvert.SerializeObject(message);
+            body = Encoding.UTF8.GetBytes(json);
+            request = (HttpWebRequest)WebRequest.Create(url);ax
+
+            request.Method = "POST";
+            request.ContentType = "application/json";
+            request.ContentLength = body.Length;
+
+            using (Stream stream = request.GetRequestStream())
+            {
+                stream.Write(body, 0, body.Length);
+                stream.Close();
+            }
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            {
+                response.Close();
+            }
+        }
+
+>>>>>>> refs/remotes/origin/Kras
         static void Main(string[] args)
         {
             List<int> list = new List<int>();
