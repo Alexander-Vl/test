@@ -13,8 +13,8 @@ namespace sberbank
             List<int> list = new List<int>();
             string number  = Console.ReadLine();
             string [] INN = number.Split(' ');
-            foreach (string INN in n)
-                list.Add(Int32.Parse(a));
+            foreach (string arg in INN)
+                list.Add(Int32.Parse(arg));
         }
     }
 }
