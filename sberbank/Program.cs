@@ -12,14 +12,14 @@ namespace sberbank
         public string Guid { get; set; }
         public string Token { get; set; }
     }
-
+    
     class Program
     {
         public void Post() {
             Message message = new Message { };
             string json = JsonConvert.SerializeObject(message);
             body = Encoding.UTF8.GetBytes(json);
-            request = (HttpWebRequest)WebRequest.Create(url);
+            request = (HttpWebRequest)WebRequest.Create(url);ax
 
             request.Method = "POST";
             request.ContentType = "application/json";
