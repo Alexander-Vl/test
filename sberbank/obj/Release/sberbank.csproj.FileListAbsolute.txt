@@ -1,0 +1,6 @@
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\bin\Release\sberbank.exe.config
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\bin\Release\sberbank.exe
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\bin\Release\sberbank.pdb
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\obj\Release\sberbank.csprojResolveAssemblyReference.cache
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\obj\Release\sberbank.exe
+c:\users\александр\documents\visual studio 2013\Projects\sberbank\sberbank\obj\Release\sberbank.pdb
