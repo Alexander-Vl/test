@@ -5,12 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class sberbank
+namespace sberbank
 {
-<<<<<<< HEAD
-    class Program
-    {
-=======
+
+  
+
     public struct Message
     {
         public string Guid { get; set; }
@@ -40,8 +39,6 @@ class sberbank
                 response.Close();
             }
         }
-
->>>>>>> refs/remotes/origin/Kras
         static void Main(string[] args)
         {
             List<int> list = new List<int>();
