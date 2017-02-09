@@ -23,7 +23,7 @@ namespace sberbank
             Message message = new Message { };
             string json = JsonConvert.SerializeObject(message);
             body = Encoding.UTF8.GetBytes(json);
-            request = (HttpWebRequest)WebRequest.Create(url);ax
+            request = (HttpWebRequest)WebRequest.Create(url);
 
             request.Method = "POST";
             request.ContentType = "application/json";
